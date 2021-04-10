@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Mobile -->
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <title>Inkednotes - Share your ideas to The New Normal</title>
+
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/prism.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+
+  <div class="scroll__progress_bar" id="scroll__bar"></div>
+
+  <div class="categories">
+    <h5>CONTENT <small>by</small> CATEGORY</h5>
+    <div class="categories__list">
+      <ul>
+        <li><a href="#">inspiration</a></li>
+        <li><a href="#">design</a></li>
+        <li><a href="#">css</a></li>
+        <li><a href="#">html</a></li>
+        <li><a href="#">vue.js</a></li>
+        <li><a href="#">react.js</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div id="app">
+    <nav class="main_nav">
+      <div class="container">
+        <div class="branding">
+          <a href="index.html">
+            <picture>
+              <source 
+                srcset="./assets/images/icon-inkednotes.png"
+                type="image/png"
+                media="all and (max-width: 480px)"
+              />
+  
+              <img class="branding__logo" src="./assets/images/logo.svg" alt="Logo">
+            </picture>
+          </a>
+        </div>
+    
+        <div class="navigation__container">
+          <nav class="navmenu">
+            <ul class="navmenu__list">
+              <li class="navmenu__item"><a href="#" class="toggle__categories">Browse</a></li>
+            </ul>
+          </nav>
+  
+          <div class="social__media">
+            <ul>
+              <li><a href="#"><i class="icon icon__twitter"></i></a></li>
+              <li><a href="#"><i class="icon icon__facebook"></i></a></li>
+              <li><a href="#"><i class="icon icon__rss"></i></a></li>
+              <li class="inkednotes__search"><a href="#" id="inkednotes__search"><i class="icon icon__search"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="search" id="search">
+      <div class="container">
+        <form action="?">
+          <input class="search__input" type="search" id="s" value="" placeholder="Search..." name="s" autofocus>
+          <button type="submit" class="btn btn__search">search</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container">
+      
+      <div class="single__container">
+        <ul class="blog__categories">
+          <li><a href="#">css</a></li>
+          <li><a href="#">html</a></li>
+          <li><a href="#">react</a></li>
+        </ul>
+        <h1>The Ultimate Guide to Flexbox Centering</h1>
+        
+        <span class="date">October 20, 2020</span>
+        <span class="author">by <a href="#">ian concepcion</a></span>
+        
+        <div class="blog__details">
+          <img src="./assets/images/img1.jpg" alt="img">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ad odit provident alias ipsam. Officiis voluptatem non sint adipisci, minima amet saepe quod autem asperiores deserunt esse culpa possimus dolor.</p>
+
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ea. Expedita animi enim pariatur! Reiciendis impedit aperiam quasi voluptatem, laudantium optio, <a href="#">aspernatur similique earum aliquid nobis quia sed culpa recusandae.</a>
+          </blockquote>
+
+          <ul>
+            <li><a href="#">Link me just click me</a></li>
+            <li>Normal li Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, ab.</li>
+          </ul>
+
+          <p>Paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae velit eius natus consectetur esse, possimus similique, rerum magnam fuga minima! Ducimus dolorum odit nesciunt ea at, nemo architecto quis.</p>
+
+          <h1>This header is h1</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt sint odio eum, totam tempore? Placeat autem, nihil quam beatae error totam accusamus? Quia accusantium facere, praesentium dicta vel nisi!</p>
+          <h2>This header is h2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt sint odio eum, totam tempore? Placeat autem, nihil quam beatae error totam accusamus? Quia accusantium facere, praesentium dicta vel nisi!</p>
+          <h3>This header is h3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt sint odio eum, totam tempore? Placeat autem, nihil quam beatae error totam accusamus? Quia accusantium facere, praesentium dicta vel nisi!</p>
+          <h4>This header is h4</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt sint odio eum, totam tempore? Placeat autem, nihil quam beatae error totam accusamus? Quia accusantium facere, praesentium dicta vel nisi!</p>
+          <h5>This header is h5</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt sint odio eum, totam tempore? Placeat autem, nihil quam beatae error totam accusamus? Quia accusantium facere, praesentium dicta vel nisi!</p>
+
+
+          <table>
+            <tbody>
+              <tr>
+                <td><strong>Name</strong></td>
+                <td><strong>Slug</strong></td>
+                <td><strong>Field Type</strong></td>
+              </tr>
+              <tr>
+                <td>Icon</td>
+                <td>icon</td>
+                <td>Image</td>
+              </tr>
+              <tr>
+                <td>Description</td>
+                <td>description</td>
+                <td>Text</td>
+              </tr>
+              <tr>
+                <td>Button URL</td>
+                <td>button-url</td>
+                <td>URL</td>
+              </tr>
+              <tr>
+                <td>Monthly Visits</td>
+                <td>monthly-visits</td>
+                <td>Number</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <img src="./assets/images/img1.jpg" alt="img">
+
+<pre class="language-css">
+  <code class="language-css">
+    code[class*="language-"],
+    pre[class*="language-"] {
+    color: black;
+    background: none;
+    text-shadow: 0 1px white;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    }
+  </code>
+</pre>
+
+        </div> <!-- end of blog__details -->
+
+
+      <div class="social__links">
+        <div data-lyket-type="clap" data-lyket-namespace="testing-widget" data-lyket-id="everybody-clap-now"></div>
+
+        
+      </div>
+
+      </div> <!-- end of single__container -->
+
+    </div>
+
+    
+    <section>
+      <div class="container">
+        <div class="newsletter">
+          <div class="newletter__content">
+            <h3 class="newsletter__title">
+              Keep up to date with inkednotes — sign up for our newsletter and stay informed.
+            </h3>
+            <div class="form__group">
+              <form action="?">
+                <input type="email" class="form" placeholder="Your email address">
+                <button type="submit" class="btn__default">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer__details">
+          <div class="footer__logo">
+            <img class="branding__logo" src="./assets/images/white-logo.svg" alt="Logo">
+          </div>
+
+          <div class="footer__copyright">
+            Inkednotes. &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  </div>
+  
+  <script src="./assets/js/scripts.js"></script>
+  <script src="https://unpkg.com/@lyket/widget@latest/dist/lyket.js?apiKey=acc0dbccce8e557db5ebbe6d605aaa"></script>
+
+  <script src="./assets/js/prism.js"></script>
+</body>
+</html>
